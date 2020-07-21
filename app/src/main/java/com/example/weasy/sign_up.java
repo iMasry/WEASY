@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import javax.crypto.NullCipher;
+
 public class sign_up extends AppCompatActivity {
 
     @Override
@@ -24,7 +26,7 @@ public class sign_up extends AppCompatActivity {
         String password = pass_word.getText().toString();
         EditText con_pass_word = (EditText) findViewById(R.id.con_Pass_word);
         String con_password = con_pass_word.getText().toString();
-        if (password.equals(con_password)) {
+        if (password.equals(con_password) && password != null) {
             Toast.makeText(getApplicationContext(), "Welcome " + username, Toast.LENGTH_SHORT).show();
             Intent numbersIntent = new Intent(this, homeactivity.class);
             startActivity(numbersIntent);

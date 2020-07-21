@@ -29,9 +29,9 @@
         android:paddingTop="5dp"
         android:hint="Name"
         android:inputType="textPersonName"
-        android:textColorHint="#FFFFFF"
+        android:textColor="#bdc8d9"
         android:paddingBottom="5dp"
-        android:textColor="#FFFFFF" />
+        android:textColorHint="#bdc8d9" />
 
     <EditText
         android:id="@+id/Pass_word"
@@ -45,9 +45,9 @@
         android:paddingTop="5dp"
         android:hint="Password"
         android:inputType="numberPassword"
-        android:textColorHint="#FFFFFF"
+        android:textColor="#bdc8d9"
         android:paddingBottom="5dp"
-        android:textColor="#FFFFFF" />
+        android:textColorHint="#bdc8d9" />
 
     <RelativeLayout
         android:layout_width="match_parent"

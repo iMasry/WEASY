@@ -33,7 +33,7 @@
                     android:angle="90"
                     android:centerColor="#0a9fba"
                     android:centerY="0.75"
-                    android:endColor="#086CFC"
+                    android:endColor="#0a9fba"
                     android:startColor="#00B5FC" />
             </shape>
         </clip>

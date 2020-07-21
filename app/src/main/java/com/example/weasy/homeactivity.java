@@ -17,7 +17,8 @@ public class homeactivity extends AppCompatActivity {
 
     public void profile(View view) {
         Toast.makeText(getApplicationContext(), "profile", Toast.LENGTH_SHORT).show();
-
+        Intent profileIntent = new Intent(this, profile.class);
+        startActivity(profileIntent);
     }
 
     public void chart(View view) {
