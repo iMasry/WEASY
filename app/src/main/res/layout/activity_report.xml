@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#07254e"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/graph"/>
+
+            <LinearLayout
+                android:id="@+id/svertical"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:gravity="center"
+                android:background="@drawable/corners">
+
+                <ProgressBar
+                    xmlns:tools="http://schemas.android.com/tools"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="25dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="match_parent"
+                    android:progressDrawable="@drawable/solid_vertical"
+                    android:progress="70" />
+                <ProgressBar
+                    xmlns:tools="http://schemas.android.com/tools"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="25dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="match_parent"
+                    android:progressDrawable="@drawable/solid_vertical"
+                    android:progress="100" />
+                <ProgressBar
+                    xmlns:tools="http://schemas.android.com/tools"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="25dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="match_parent"
+                    android:progressDrawable="@drawable/solid_vertical"
+                    android:progress="50" />
+                <ProgressBar
+                    xmlns:tools="http://schemas.android.com/tools"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="25dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="match_parent"
+                    android:progressDrawable="@drawable/solid_vertical"
+                    android:progress="90" />
+                <ProgressBar
+                    xmlns:tools="http://schemas.android.com/tools"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="25dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="match_parent"
+                    android:progressDrawable="@drawable/solid_vertical"
+                    android:progress="80" />
+                <ProgressBar
+                    xmlns:tools="http://schemas.android.com/tools"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="25dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="match_parent"
+                    android:progressDrawable="@drawable/solid_vertical"
+                    android:progress="90" />
+                <ProgressBar
+                    xmlns:tools="http://schemas.android.com/tools"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="25dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="match_parent"
+                    android:progressDrawable="@drawable/solid_vertical"
+                    android:progress="80" />
+                <ProgressBar
+                    xmlns:tools="http://schemas.android.com/tools"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="25dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_height="match_parent"
+                    android:progressDrawable="@drawable/solid_vertical"
+                    android:progress="50" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@+id/mother"
+            android:background="@drawable/corners"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                android:src="@drawable/wp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_marginRight="70dp"
+                android:clickable="true"
+                android:src="@drawable/wh"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_marginRight="20dp"
+                android:clickable="true"
+                android:src="@drawable/bs"/>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
