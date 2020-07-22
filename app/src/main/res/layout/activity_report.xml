@@ -292,6 +292,7 @@
             android:src="@drawable/wh" />
 
         <ImageView
+            android:id="@+id/bs"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginRight="20dp"
