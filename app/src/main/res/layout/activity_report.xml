@@ -283,6 +283,7 @@
             android:src="@drawable/wp" />
 
         <ImageView
+            android:id="@+id/wh"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginRight="70dp"
