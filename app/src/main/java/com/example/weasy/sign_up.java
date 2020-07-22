@@ -8,13 +8,17 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import javax.crypto.NullCipher;
+
 public class sign_up extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
+
     }
+
     public void Sign_up(View view) {
         EditText text = (EditText) findViewById(R.id.name);
         String username = text.getText().toString();
@@ -22,16 +26,19 @@ public class sign_up extends AppCompatActivity {
         String password = pass_word.getText().toString();
         EditText con_pass_word = (EditText) findViewById(R.id.con_Pass_word);
         String con_password = con_pass_word.getText().toString();
-        if (password ==con_password ) {
-            Toast.makeText(getApplicationContext(), "Welcome", Toast.LENGTH_SHORT).show();
-          //  Intent numbersIntent = new Intent(MainActivity.this, homeactivity.class);
-           // startActivity(numbersIntent);
+        if (password.equals(con_password) && password != null) {
+            Toast.makeText(getApplicationContext(), "Welcome " + username, Toast.LENGTH_SHORT).show();
+            Intent numbersIntent = new Intent(this, homeactivity.class);
+            startActivity(numbersIntent);
         } else {
-            Toast.makeText(getApplicationContext(), "Authentication failed " + '\n' +"Please check your username / password ", Toast.LENGTH_SHORT).show();
-
+            Toast.makeText(getApplicationContext(), "please rewrite password ", Toast.LENGTH_SHORT).show();
         }
 
+    }
 
+    public void phone(View view) {
+        Intent mainIntent = new Intent(this, MainActivity.class);
+        startActivity(mainIntent);
     }
 
 }

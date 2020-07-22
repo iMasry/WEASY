@@ -21,12 +21,12 @@ public class MainActivity extends AppCompatActivity {
         String username = text.getText().toString();
         EditText pass_word = (EditText) findViewById(R.id.Pass_word);
         String password = pass_word.getText().toString();
-        if (username.equals("Ahmed") && password.equals("1945")) {
-            Toast.makeText(getApplicationContext(), "Welcome", Toast.LENGTH_SHORT).show();
+        if (username.equals("anne") && password.equals("1945")) {
+            Toast.makeText(getApplicationContext(), "Welcome " + username, Toast.LENGTH_SHORT).show();
             Intent HOMEIntent = new Intent(MainActivity.this, homeactivity.class);
             startActivity(HOMEIntent);
         } else {
-            Toast.makeText(getApplicationContext(), "Authentication failed " + '\n' +"Please check your username / password ", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Authentication failed " + '\n' + "Please check your username / password ", Toast.LENGTH_SHORT).show();
 
         }
 

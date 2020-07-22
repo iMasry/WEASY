@@ -10,52 +10,174 @@
     <ImageView
         android:id="@+id/logo"
         android:layout_width="250dp"
-        android:layout_height="0dp"
+        android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
-        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+
         android:src="@drawable/logo" />
 
-    <EditText
-        android:id="@+id/name"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="20dp"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        android:textColorHint="#FFFFFF"
-        android:textColor="#FFFFFF" />
+        android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/Pass_word"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="20dp"
-        android:hint="Password"
-        android:inputType="numberPassword"
-        android:textColorHint="#FFFFFF"
-        android:textColor="#FFFFFF"/>
-    <EditText
-        android:id="@+id/con_Pass_word"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_marginBottom="20dp"
-        android:hint="Confirm Password"
-        android:inputType="numberPassword"
-        android:textColorHint="#FFFFFF"
-        android:textColor="#FFFFFF"/>
+        <LinearLayout
+            android:id="@+id/names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners"
+                android:hint="Parent Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#bdc8d9"
+                android:textColorHint="#bdc8d9"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/patient_name"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners"
+                android:hint="Patient Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#bdc8d9"
+                android:textColorHint="#bdc8d9"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/names"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners"
+                android:hint="Age"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#bdc8d9"
+                android:textColorHint="#bdc8d9"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/gender"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners"
+                android:hint="Gender"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#bdc8d9"
+                android:textColorHint="#bdc8d9"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/num"
+            android:orientation="horizontal"
+            android:textSize="15sp">
+
+            <EditText
+                android:id="@+id/Pass_word"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners"
+                android:hint="Password"
+                android:inputType="numberPassword"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#bdc8d9"
+                android:textColorHint="#bdc8d9"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/con_Pass_word"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/corners"
+                android:hint="Confirm Password"
+                android:inputType="numberPassword"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="#bdc8d9"
+                android:textColorHint="#bdc8d9"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+
+            android:layout_below="@+id/pass"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+
+            android:background="@drawable/corners"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textColor="#bdc8d9"
+            android:paddingBottom="5dp"
+            android:textColorHint="#bdc8d9"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
-
 
 
         <Button
@@ -64,7 +186,7 @@
             android:layout_height="wrap_content"
 
             android:layout_marginLeft="25dp"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="25dp"
             android:background="@drawable/custom_button"
             android:text="Sign up"
@@ -95,7 +217,7 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="35dp"
                 android:layout_toRightOf="@id/sign_up"
-                android:autoLink="phone"
+                android:onClick="phone"
                 android:text="Sign in"
                 android:clickable="true"
                 android:textColor="#086CFC" />

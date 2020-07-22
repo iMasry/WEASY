@@ -13,6 +13,19 @@
         android:layout_gravity="center_horizontal">
 
         <ProgressBar
+            android:id="@+id/PROGRESS_BAR1"
+            style="?android:attr/progressBarStyleHorizontal"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+
+            android:progress="100"
+            android:progressDrawable="@drawable/gradiant2"
+
+            />
+
+        <ProgressBar
             android:id="@+id/PROGRESS_BAR"
             style="?android:attr/progressBarStyleHorizontal"
 
@@ -20,10 +33,11 @@
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
 
-            android:progress="75"
+            android:progress="65"
             android:progressDrawable="@drawable/gradiant"
 
             />
+
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -35,7 +49,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:layout_gravity="center_horizontal"
-                android:text="75%"
+                android:text="65%"
                 android:textColor="#ffffff"
                 android:textSize="45dp"
                 android:textStyle="bold"
@@ -140,12 +154,13 @@
                 android:linksClickable="true"
                 android:text="Weekly Activity"
                 android:textColor="#FFFFFF"
-                android:fontFamily="sans-serif"/>
+                android:fontFamily="sans-serif"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:id="@+id/vertical"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"
+                android:layout_height="140dp"
                 android:layout_below="@+id/weakly"
                 android:layout_marginLeft="10dp"
                android:paddingLeft="25dp"
@@ -160,10 +175,10 @@
                         android:id="@+id/Sun"
                         style="@style/Widget.ProgressBar.Vertical"
                         android:layout_width="10dp"
-                        android:layout_height="100dp"
+                        android:layout_height="120dp"
 
 
-                        android:progress="80"
+                        android:progress="30"
 
                         android:progressDrawable="@drawable/vertical" />
 
@@ -192,10 +207,10 @@
                         style="@style/Widget.ProgressBar.Vertical"
                         android:layout_width="10dp"
 
-                        android:layout_height="100dp"
+                        android:layout_height="120dp"
 
 
-                        android:progress="70"
+                        android:progress="80"
 
                         android:progressDrawable="@drawable/vertical" />
 
@@ -221,8 +236,8 @@
                         android:id="@+id/Tues"
                         style="@style/Widget.ProgressBar.Vertical"
                         android:layout_width="10dp"
-                        android:layout_height="100dp"
-                        android:progress="60"
+                        android:layout_height="120dp"
+                        android:progress="45"
                         android:progressDrawable="@drawable/vertical" />
 
                     <TextView
@@ -233,7 +248,7 @@
                         android:layout_below="@+id/Tues"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginRight="5dp"
-                        android:text="Tues"
+                        android:text="Tue"
                         android:textColor="#ffffff"
                         android:textSize="12dp"
                         android:textStyle="bold"
@@ -249,10 +264,10 @@
                         android:id="@+id/Wed"
                         style="@style/Widget.ProgressBar.Vertical"
                         android:layout_width="10dp"
-                        android:layout_height="100dp"
+                        android:layout_height="120dp"
 
 
-                        android:progress="50"
+                        android:progress="60"
 
                         android:progressDrawable="@drawable/vertical" />
 
@@ -279,10 +294,10 @@
                         android:id="@+id/Thurs"
                         style="@style/Widget.ProgressBar.Vertical"
                         android:layout_width="10dp"
-                        android:layout_height="100dp"
+                        android:layout_height="120dp"
 
 
-                        android:progress="30"
+                        android:progress="50"
 
                         android:progressDrawable="@drawable/vertical" />
 
@@ -292,7 +307,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/Thurs"
                         android:layout_gravity="center_horizontal"
-                        android:text="Thurs"
+                        android:text="Thu"
                         android:textColor="#ffffff"
                         android:textSize="12dp"
                         android:textStyle="bold"
@@ -308,10 +323,10 @@
                         android:id="@+id/Fri"
                         style="@style/Widget.ProgressBar.Vertical"
                         android:layout_width="10dp"
-                        android:layout_height="100dp"
+                        android:layout_height="120dp"
 
 
-                        android:progress="40"
+                        android:progress="60"
 
                         android:progressDrawable="@drawable/vertical" />
 
@@ -339,8 +354,8 @@
                         style="@style/Widget.ProgressBar.Vertical"
                         android:layout_width="10dp"
 
-                        android:layout_height="100dp"
-                        android:progress="90"
+                        android:layout_height="120dp"
+                        android:progress="30"
 
                         android:progressDrawable="@drawable/vertical" />
 
@@ -374,6 +389,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:clickable="true"
+                android:onClick="profile"
                 android:src="@drawable/wp"/>
             <ImageView
             android:layout_width="0dp"
@@ -381,6 +397,7 @@
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:clickable="true"
+
                 android:src="@drawable/bh"/>
             <ImageView
                 android:layout_width="0dp"
@@ -388,6 +405,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:clickable="true"
+                android:onClick="chart"
                 android:src="@drawable/ws"/>
 
         </LinearLayout>
