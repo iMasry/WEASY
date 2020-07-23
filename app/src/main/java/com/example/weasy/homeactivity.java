@@ -16,15 +16,20 @@ public class homeactivity extends AppCompatActivity {
     }
 
     public void profile(View view) {
-        Toast.makeText(getApplicationContext(), "profile", Toast.LENGTH_SHORT).show();
-        Intent profileIntent = new Intent(homeactivity.this, profile.class);
+        Toast.makeText(getApplicationContext(), "Profile", Toast.LENGTH_SHORT).show();
+        Intent profileIntent = new Intent(this, profile.class);
         startActivity(profileIntent);
     }
 
-    public void chart(View view) {
-        Toast.makeText(getApplicationContext(), "chart", Toast.LENGTH_SHORT).show();
-        Intent profileEIntent = new Intent(homeactivity.this, ReportActivity.class);
-        startActivity(profileEIntent);
+    public void home(View view) {
+        Toast.makeText(getApplicationContext(), "Progress", Toast.LENGTH_SHORT).show();
     }
+
+    public void chart(View view) {
+        Toast.makeText(getApplicationContext(), "Statics", Toast.LENGTH_SHORT).show();
+        Intent chartIntent = new Intent(this, ReportActivity.class);
+        startActivity(chartIntent);
+    }
+
 
 }
