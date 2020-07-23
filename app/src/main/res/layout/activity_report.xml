@@ -5,7 +5,7 @@
     android:background="#07254e"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ReportActivity">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -279,6 +279,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="70dp"
             android:clickable="true"
+            android:onClick="profile"
             android:padding="10dp"
             android:src="@drawable/wp" />
 
@@ -288,6 +289,7 @@
             android:layout_height="50dp"
             android:layout_marginRight="70dp"
             android:clickable="true"
+            android:onClick="home"
             android:padding="10dp"
             android:src="@drawable/wh" />
 
@@ -297,6 +299,7 @@
             android:layout_height="50dp"
             android:layout_marginRight="20dp"
             android:clickable="true"
+            android:onClick="chart"
             android:padding="10dp"
             android:src="@drawable/bs" />
 
