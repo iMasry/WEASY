@@ -4,60 +4,36 @@
     android:layout_height="match_parent"
     android:background="#07254e"
     android:orientation="vertical"
+    android:gravity="center_horizontal"
     tools:context=".homeactivity">
 
-    <FrameLayout
-        android:id="@+id/PROGRESS_BARf"
+    <RelativeLayout
         android:layout_width="200dp"
-        android:layout_height="234dp"
-        android:layout_gravity="center_horizontal">
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0">
 
         <ProgressBar
-            android:id="@+id/PROGRESS_BAR1"
+            android:id="@+id/month1circle"
             style="?android:attr/progressBarStyleHorizontal"
-
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-
-            android:progress="100"
-            android:progressDrawable="@drawable/gradiant2"
-
-            />
-
-        <ProgressBar
-            android:id="@+id/PROGRESS_BAR"
-            style="?android:attr/progressBarStyleHorizontal"
-
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
             android:progress="65"
-            android:progressDrawable="@drawable/gradiant"
+            android:progressDrawable="@drawable/progress_circular" />
 
-            />
+        <TextView
+            android:id="@+id/month1text"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="65%"
+            android:textColor="#FFF"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
 
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
-                android:layout_gravity="center_horizontal"
-                android:text="65%"
-                android:textColor="#ffffff"
-                android:textSize="45dp"
-                android:textStyle="bold"
-                android:fontFamily="sans-serif"
-                />
-
-        </RelativeLayout>
-    </FrameLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
