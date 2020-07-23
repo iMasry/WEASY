@@ -3,61 +3,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#07254e"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".homeactivity">
 
-    <FrameLayout
-        android:id="@+id/PROGRESS_BARf"
+    <RelativeLayout
         android:layout_width="200dp"
-        android:layout_height="234dp"
-        android:layout_gravity="center_horizontal">
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:layout_weight="0">
 
         <ProgressBar
-            android:id="@+id/PROGRESS_BAR1"
+            android:id="@+id/month1circle"
             style="?android:attr/progressBarStyleHorizontal"
-
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-
-            android:progress="100"
-            android:progressDrawable="@drawable/gradiant2"
-
-            />
-
-        <ProgressBar
-            android:id="@+id/PROGRESS_BAR"
-            style="?android:attr/progressBarStyleHorizontal"
-
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
             android:progress="65"
-            android:progressDrawable="@drawable/gradiant"
+            android:progressDrawable="@drawable/progress_circular" />
 
-            />
+        <TextView
+            android:id="@+id/month1text"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="65%"
+            android:textColor="#FFF"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
 
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
-                android:layout_gravity="center_horizontal"
-                android:text="65%"
-                android:textColor="#ffffff"
-                android:textSize="45dp"
-                android:textStyle="bold"
-                android:fontFamily="sans-serif"
-                />
-
-        </RelativeLayout>
-    </FrameLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -81,20 +57,20 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
                 android:paddingTop="10dp"
                 android:text="Total Run"
                 android:textColor="#ffffff"
-                android:textSize="17dp"
-                android:fontFamily="sans-serif"/>
+                android:textSize="17dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
                 android:text="849"
                 android:textColor="#ffffff"
-                android:textSize="17dp"
-                android:fontFamily="sans-serif"/>
+                android:textSize="17dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -109,20 +85,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
                 android:paddingTop="10dp"
                 android:text="Average speed"
                 android:textColor="#ffffff"
-                android:textSize="17dp"
-                android:fontFamily="sans-serif"/>
+                android:textSize="17dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
                 android:text="420 m/h"
                 android:textColor="#ffffff"
-                android:textSize="17dp"
-                android:fontFamily="sans-serif"/>
+                android:textSize="17dp" />
         </LinearLayout>
 
     </LinearLayout>
@@ -135,10 +111,10 @@
         android:layout_weight="1">
 
         <RelativeLayout
+            android:id="@+id/mother"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:id="@+id/mother"
             android:background="@drawable/corners">
 
             <TextView
@@ -151,10 +127,10 @@
                 android:layout_marginRight="25dp"
                 android:layout_marginBottom="20dp"
                 android:clickable="true"
+                android:fontFamily="sans-serif"
                 android:linksClickable="true"
                 android:text="Weekly Activity"
                 android:textColor="#FFFFFF"
-                android:fontFamily="sans-serif"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -163,8 +139,8 @@
                 android:layout_height="140dp"
                 android:layout_below="@+id/weakly"
                 android:layout_marginLeft="10dp"
-               android:paddingLeft="25dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
 
                 <RelativeLayout
                     android:layout_width="0dp"
@@ -189,11 +165,11 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/Sun"
                         android:layout_alignParentLeft="true"
+                        android:fontFamily="sans-serif"
                         android:text="Sun"
                         android:textColor="#ffffff"
                         android:textSize="12dp"
-                        android:textStyle="bold"
-                        android:fontFamily="sans-serif"/>
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
 
@@ -220,11 +196,11 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/Mon"
 
+                        android:fontFamily="sans-serif"
                         android:text="Mon"
                         android:textColor="#ffffff"
                         android:textSize="12dp"
-                        android:textStyle="bold"
-                        android:fontFamily="sans-serif"/>
+                        android:textStyle="bold" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -248,11 +224,11 @@
                         android:layout_below="@+id/Tues"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginRight="5dp"
+                        android:fontFamily="sans-serif"
                         android:text="Tue"
                         android:textColor="#ffffff"
                         android:textSize="12dp"
-                        android:textStyle="bold"
-                        android:fontFamily="sans-serif"/>
+                        android:textStyle="bold" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -278,11 +254,11 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_marginRight="10dp"
                         android:layout_weight="1"
+                        android:fontFamily="sans-serif"
                         android:text="Wed"
                         android:textColor="#ffffff"
                         android:textSize="12dp"
-                        android:textStyle="bold"
-                        android:fontFamily="sans-serif"/>
+                        android:textStyle="bold" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -307,11 +283,11 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/Thurs"
                         android:layout_gravity="center_horizontal"
+                        android:fontFamily="sans-serif"
                         android:text="Thu"
                         android:textColor="#ffffff"
                         android:textSize="12dp"
-                        android:textStyle="bold"
-                        android:fontFamily="sans-serif"/>
+                        android:textStyle="bold" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -337,11 +313,11 @@
                         android:layout_below="@+id/Fri"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginRight="0dp"
+                        android:fontFamily="sans-serif"
                         android:text="Fri"
                         android:textColor="#ffffff"
                         android:textSize="12dp"
-                        android:textStyle="bold"
-                        android:fontFamily="sans-serif"/>
+                        android:textStyle="bold" />
                 </RelativeLayout>
 
                 <RelativeLayout
@@ -366,22 +342,23 @@
                         android:layout_below="@+id/Sat"
 
                         android:layout_gravity="center_horizontal"
+                        android:fontFamily="sans-serif"
                         android:text="Sat"
                         android:textColor="#ffffff"
                         android:textSize="12dp"
-                        android:textStyle="bold"
-                        android:fontFamily="sans-serif"/>
+                        android:textStyle="bold" />
                 </RelativeLayout>
             </LinearLayout>
 
         </RelativeLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_below="@+id/mother"
+            android:layout_margin="10dp"
             android:background="@drawable/corners"
-            android:orientation="horizontal"
-            android:layout_margin="10dp">
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="0dp"
@@ -390,15 +367,17 @@
                 android:layout_weight="1"
                 android:clickable="true"
                 android:onClick="profile"
-                android:src="@drawable/wp"/>
-            <ImageView
-            android:layout_width="0dp"
-            android:layout_height="25dp"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:clickable="true"
+                android:src="@drawable/wp" />
 
-                android:src="@drawable/bh"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="home"
+                android:src="@drawable/bh" />
+
             <ImageView
                 android:layout_width="0dp"
                 android:layout_height="20dp"
@@ -406,7 +385,7 @@
                 android:layout_weight="1"
                 android:clickable="true"
                 android:onClick="chart"
-                android:src="@drawable/ws"/>
+                android:src="@drawable/ws" />
 
         </LinearLayout>
 
