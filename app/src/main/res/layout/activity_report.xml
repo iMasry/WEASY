@@ -282,6 +282,8 @@
             android:layout_height="20dp"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:onClick="profile"
             android:src="@drawable/wp" />
@@ -291,6 +293,8 @@
             android:layout_height="20dp"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:onClick="home"
             android:src="@drawable/wh" />
@@ -301,6 +305,8 @@
             android:layout_height="20dp"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:onClick="chart"
             android:src="@drawable/bs" />

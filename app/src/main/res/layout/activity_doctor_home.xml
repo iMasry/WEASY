@@ -388,6 +388,8 @@
                 android:layout_height="25dp"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:clickable="true"
                 android:onClick="profile"
                 android:src="@drawable/wp" />
@@ -398,7 +400,8 @@
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:clickable="true"
-
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:src="@drawable/bh" />
 
             <ImageView
@@ -407,6 +410,8 @@
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:onClick="chart"
                 android:src="@drawable/ws" />
 
@@ -416,6 +421,8 @@
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
                 android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:onClick="control"
                 android:src="@drawable/wc" />
         </LinearLayout>
