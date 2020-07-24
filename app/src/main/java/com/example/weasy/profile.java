@@ -55,14 +55,14 @@ public class profile extends AppCompatActivity {
     }
 
     public void hoome(View view) {
-        Toast.makeText(getApplicationContext(), "Home", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Progress", Toast.LENGTH_SHORT).show();
         Intent homeEIntent = new Intent(profile.this, homeactivity.class);
         startActivity(homeEIntent);
     }
 
     public void chartt(View view) {
 
-        Toast.makeText(getApplicationContext(), "chart", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Statics", Toast.LENGTH_SHORT).show();
         Intent chartEIntent = new Intent(profile.this, ReportActivity.class);
         startActivity(chartEIntent);
     }
