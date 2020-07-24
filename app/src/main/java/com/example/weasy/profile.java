@@ -9,14 +9,28 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class profile extends AppCompatActivity {
 
+    private LinearLayout linear;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+        linear = findViewById(R.id.daialog);
+        linear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                opendialog();
+            }
+        });
+    }
+
+    public void opendialog() {
+        dialog Dialog = new dialog();
+        Dialog.show(getSupportFragmentManager(), "dialog");
     }
 
     public void call(View view) {
@@ -33,6 +47,11 @@ public class profile extends AppCompatActivity {
     public void logout(View view) {
         Intent logoutEIntent = new Intent(profile.this, MainActivity.class);
         startActivity(logoutEIntent);
+    }
+
+    public void setting(View view) {
+        Intent settingEIntent = new Intent(profile.this, setting.class);
+        startActivity(settingEIntent);
     }
 
     public void hoome(View view) {
