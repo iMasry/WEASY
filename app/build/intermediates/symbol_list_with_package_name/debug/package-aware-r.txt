@@ -23,6 +23,7 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+array patient
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -651,6 +652,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable bc
 drawable bh
 drawable bp
 drawable bs
@@ -706,6 +708,7 @@ drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vertical
 drawable wb
+drawable wc
 drawable wh
 drawable white
 drawable wp
@@ -973,6 +976,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_control
+layout activity_doctor_home
 layout activity_homeactivity
 layout activity_main
 layout activity_profile

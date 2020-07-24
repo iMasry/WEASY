@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Welcome " + username, Toast.LENGTH_SHORT).show();
             Intent HOMEIntent = new Intent(MainActivity.this, homeactivity.class);
             startActivity(HOMEIntent);
+        } else if (username.equals("ahmed") && password.equals("1945")) {
+
+            Intent sign_upIntent = new Intent(MainActivity.this, doctor_home.class);
+            startActivity(sign_upIntent);
         } else {
             Toast.makeText(getApplicationContext(), "Authentication failed " + '\n' + "Please check your username / password ", Toast.LENGTH_SHORT).show();
 

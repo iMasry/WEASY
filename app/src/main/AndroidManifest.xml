@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".setting"></activity>
+        <activity android:name=".control"></activity>
+        <activity android:name=".doctor_home" />
+        <activity android:name=".setting" />
         <activity android:name=".profile" />
         <activity android:name=".ReportActivity" />
         <activity android:name=".homeactivity" />

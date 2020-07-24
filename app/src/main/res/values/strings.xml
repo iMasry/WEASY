@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WEASY</string>
+    <string-array name="patient">
+        <item>Ayman</item>
+
+    </string-array>
 </resources>
