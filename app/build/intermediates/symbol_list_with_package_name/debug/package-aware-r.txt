@@ -836,6 +836,7 @@ id icon_group
 id ifRoom
 id image
 id info
+id init
 id invisible
 id italic
 id left
@@ -875,6 +876,7 @@ id parent
 id parentPanel
 id pass
 id patient_name
+id pause
 id percent
 id pic
 id profile
@@ -927,7 +929,6 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
-id test
 id text
 id text2
 id textSpacerNoButtons
