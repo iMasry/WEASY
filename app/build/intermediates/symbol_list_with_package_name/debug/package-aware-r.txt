@@ -861,6 +861,7 @@ id name
 id names
 id never
 id next_button
+id no_radio_button
 id none
 id normal
 id notification_background
@@ -953,6 +954,7 @@ id withText
 id wp
 id wrap
 id wrap_content
+id yes_radio_button
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha
