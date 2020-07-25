@@ -41,27 +41,27 @@
 25        <activity android:name="com.example.weasy.BluetoothActivity" />
 25-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:17:9-55
 25-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:17:19-52
-26        <activity android:name="com.example.weasy.doctor_home" />
-26-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:18:9-49
-26-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:18:19-46
+26        <activity android:name="com.example.weasy.DoctorHomeActivity" />
+26-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:18:9-56
+26-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:18:19-53
 27        <activity android:name="com.example.weasy.doctor_profile" />
 27-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:19:9-52
 27-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:19:19-49
-28        <activity android:name="com.example.weasy.setting" />
-28-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:20:9-45
-28-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:20:19-42
-29        <activity android:name="com.example.weasy.profile" />
-29-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:21:9-45
-29-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:21:19-42
+28        <activity android:name="com.example.weasy.SettingActivity" />
+28-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:20:9-53
+28-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:20:19-50
+29        <activity android:name="com.example.weasy.ProfileActivity" />
+29-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:21:9-53
+29-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:21:19-50
 30        <activity android:name="com.example.weasy.ReportActivity" />
 30-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:22:9-52
 30-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:22:19-49
-31        <activity android:name="com.example.weasy.homeactivity" />
+31        <activity android:name="com.example.weasy.HomeActivity" />
 31-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:23:9-50
 31-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:23:19-47
-32        <activity android:name="com.example.weasy.sign_up" />
-32-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:24:9-45
-32-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:24:19-42
+32        <activity android:name="com.example.weasy.SignUpActivity" />
+32-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:24:9-52
+32-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:24:19-49
 33        <activity android:name="com.example.weasy.MainActivity" >
 33-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:25:9-31:20
 33-->C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:25:19-47

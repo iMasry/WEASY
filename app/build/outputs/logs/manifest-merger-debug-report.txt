@@ -80,34 +80,34 @@ activity#com.example.weasy.BluetoothActivity
 ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:17:9-55
 	android:name
 		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:17:19-52
-activity#com.example.weasy.doctor_home
-ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:18:9-49
+activity#com.example.weasy.DoctorHomeActivity
+ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:18:9-56
 	android:name
-		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:18:19-46
+		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:18:19-53
 activity#com.example.weasy.doctor_profile
 ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:19:9-52
 	android:name
 		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:19:19-49
-activity#com.example.weasy.setting
-ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:20:9-45
+activity#com.example.weasy.SettingActivity
+ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:20:9-53
 	android:name
-		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:20:19-42
-activity#com.example.weasy.profile
-ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:21:9-45
+		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:20:19-50
+activity#com.example.weasy.ProfileActivity
+ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:21:9-53
 	android:name
-		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:21:19-42
+		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:21:19-50
 activity#com.example.weasy.ReportActivity
 ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:22:9-52
 	android:name
 		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:22:19-49
-activity#com.example.weasy.homeactivity
+activity#com.example.weasy.HomeActivity
 ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:23:9-50
 	android:name
 		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:23:19-47
-activity#com.example.weasy.sign_up
-ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:24:9-45
+activity#com.example.weasy.SignUpActivity
+ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:24:9-52
 	android:name
-		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:24:19-42
+		ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:24:19-49
 activity#com.example.weasy.MainActivity
 ADDED from C:\Users\laila\AndroidStudioProjects\weasy\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name

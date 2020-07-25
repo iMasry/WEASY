@@ -28,7 +28,7 @@
 
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="16dp"
-                android:text="   Duration"
+                android:text=" Duration"
                 android:textColor="#00B5FC"
                 android:textSize="18sp" />
 

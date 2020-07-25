@@ -28,20 +28,12 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-hdpi\\bc.png"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_left.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xxhdpi\\left.png"
-    },
-    {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_graph.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable\\graph.png"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\layout\\list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_homeactivity.xml.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\layout\\activity_homeactivity.xml"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_corners.xml.flat",
@@ -108,10 +100,6 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_email.png"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradiant2.xml.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable\\gradiant2.xml"
-    },
-    {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circular_bar.xml.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable\\circular_bar.xml"
     },
@@ -120,12 +108,12 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_email.png"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable\\white.png"
-    },
-    {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_wp.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xxxhdpi\\wp.png"
+    },
+    {
+        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_back.png.flat",
@@ -146,10 +134,6 @@
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_left.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xhdpi\\left.png"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_logout.png.flat",
@@ -212,10 +196,6 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xxhdpi\\bc.png"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_back.xml.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_back.xml"
     },
@@ -256,18 +236,6 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\layout\\activity_bluetooth.xml"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_left.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-mdpi\\left.png"
-    },
-    {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bh.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xxhdpi\\bh.png"
     },
@@ -298,10 +266,6 @@
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_phone.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_phone.png"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_right.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xxxhdpi\\right.png"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_gear.png.flat",
@@ -344,10 +308,6 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xhdpi\\bh.png"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_controlling.xml.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\layout\\activity_controlling.xml"
     },
@@ -372,20 +332,12 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_password.png"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_left.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xxxhdpi\\left.png"
-    },
-    {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile2.xml.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable\\profile2.xml"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bs.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-mdpi\\bs.png"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_wb.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xhdpi\\wb.png"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_email.png.flat",
@@ -412,10 +364,6 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xhdpi\\wp.png"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_right.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-mdpi\\right.png"
-    },
-    {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_physiotherapy.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_physiotherapy.png"
     },
@@ -434,14 +382,6 @@
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_notification.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notification.png"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradiant.xml.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable\\gradiant.xml"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_chat.png.flat",
@@ -470,14 +410,6 @@
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_password.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_password.png"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress_circular.xml.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable\\progress_circular.xml"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_logout.png.flat",
@@ -520,8 +452,8 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_phone.png"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_right.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xhdpi\\right.png"
+        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_progress.xml.flat",
+        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable\\circle_progress.xml"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile3.xml.flat",
@@ -534,10 +466,6 @@
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_notification.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_notification.png"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -562,10 +490,6 @@
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_doctor_home.xml.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\layout\\activity_doctor_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_wb.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xxhdpi\\wb.png"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_gear.png.flat",
@@ -604,12 +528,12 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-mdpi\\bp.png"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_proofile.xml.flat",
@@ -644,10 +568,6 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_right.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-xxhdpi\\right.png"
-    },
-    {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -674,10 +594,6 @@
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_email.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_email.png"
-    },
-    {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_phone.xml.flat",

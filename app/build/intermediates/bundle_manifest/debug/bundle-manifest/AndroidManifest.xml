@@ -23,13 +23,13 @@
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.weasy.ControllingActivity" />
         <activity android:name="com.example.weasy.BluetoothActivity" />
-        <activity android:name="com.example.weasy.doctor_home" />
+        <activity android:name="com.example.weasy.DoctorHomeActivity" />
         <activity android:name="com.example.weasy.doctor_profile" />
-        <activity android:name="com.example.weasy.setting" />
-        <activity android:name="com.example.weasy.profile" />
+        <activity android:name="com.example.weasy.SettingActivity" />
+        <activity android:name="com.example.weasy.ProfileActivity" />
         <activity android:name="com.example.weasy.ReportActivity" />
-        <activity android:name="com.example.weasy.homeactivity" />
-        <activity android:name="com.example.weasy.sign_up" />
+        <activity android:name="com.example.weasy.HomeActivity" />
+        <activity android:name="com.example.weasy.SignUpActivity" />
         <activity android:name="com.example.weasy.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
