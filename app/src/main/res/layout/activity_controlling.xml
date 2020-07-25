@@ -4,28 +4,252 @@
     android:layout_height="match_parent"
     android:background="#07254e"
     android:gravity="center_horizontal"
+    android:padding="20dp"
     android:orientation="vertical"
     tools:context=".ControllingActivity">
 
-    <Button
-        android:id="@+id/test"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="20dp"
-        android:text="Test" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/on"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="20dp"
-        android:text="Turn ON" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/off"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="20dp"
-        android:text="Turn OFF" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:text=" Select  Duration"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/yes_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="16dp"
+                    android:text="30 Minutes"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+                    android:id="@+id/no_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="16dp"
+                    android:checked="true"
+                    android:text="One Hour"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ffffff" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/corners"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:text=" Distance"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="16dp"
+                    android:text="100 m"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ffffff" />
+
+                <RadioButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="16dp"
+                    android:checked="true"
+                    android:text="50 m"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="#ffffff" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:background="@drawable/corners"
+        android:orientation="vertical"
+        android:paddingBottom="13dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Control Panel"
+            android:textColor="#ffffff"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/test"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Initialize"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Button
+
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="pause"
+                android:textColor="#ffffff"
+
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/on"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Start"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/off"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="Stop"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/mother"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/corners"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/wp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/wh" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+
+            android:src="@drawable/ws" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+
+            android:src="@drawable/bc" />
+    </LinearLayout>
 </LinearLayout>

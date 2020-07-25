@@ -17,13 +17,22 @@
             android:id="@+id/search"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Search" />
+            android:background="@drawable/custom_button"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Search"
+            android:textColor="#ffffff" />
 
         <Button
             android:id="@+id/connect"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Connect" />
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/custom_button"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Connect"
+            android:textColor="#ffffff" />
     </LinearLayout>
 
     <ListView
