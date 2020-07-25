@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
         String password = pass_word.getText().toString();
         if (username.equals("ayman") && password.equals("1945")) {
             Toast.makeText(getApplicationContext(), "Welcome " + username, Toast.LENGTH_SHORT).show();
-            Intent HOMEIntent = new Intent(MainActivity.this, homeactivity.class);
+            Intent HOMEIntent = new Intent(MainActivity.this, HomeActivity.class);
             startActivity(HOMEIntent);
         } else if (username.equals("ahmed") && password.equals("1945")) {
 
-            Intent sign_upIntent = new Intent(MainActivity.this, doctor_home.class);
+            Intent sign_upIntent = new Intent(MainActivity.this, DoctorHomeActivity.class);
             startActivity(sign_upIntent);
         } else {
             Toast.makeText(getApplicationContext(), "Authentication failed " + '\n' + "Please check your username / password ", Toast.LENGTH_SHORT).show();
@@ -36,8 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
     public void Sign_up(View view) {
-        Intent sign_upIntent = new Intent(MainActivity.this, sign_up.class);
+        Intent sign_upIntent = new Intent(MainActivity.this, SignUpActivity.class);
         startActivity(sign_upIntent);
     }
 }

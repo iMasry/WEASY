@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#07254e"
     android:orientation="vertical"
-    tools:context=".sign_up">
+    tools:context=".SignUpActivity">
 
     <ImageView
         android:id="@+id/logo"
@@ -14,7 +14,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="20dp"
-
         android:src="@drawable/logo" />
 
     <RelativeLayout
@@ -157,18 +156,16 @@
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-
             android:layout_below="@+id/pass"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-
             android:background="@drawable/corners"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:paddingLeft="5dp"
             android:paddingTop="5dp"
-            android:textColor="#bdc8d9"
             android:paddingBottom="5dp"
+            android:textColor="#bdc8d9"
             android:textColorHint="#bdc8d9"
             android:textSize="15sp" />
     </RelativeLayout>
@@ -184,13 +181,12 @@
             android:id="@+id/next_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:layout_marginLeft="25dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="25dp"
             android:background="@drawable/custom_button"
-            android:text="Sign up"
             android:onClick="Sign_up"
+            android:text="Sign up"
             android:textColor="#FFFFFF" />
 
         <LinearLayout
@@ -217,9 +213,9 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="35dp"
                 android:layout_toRightOf="@id/sign_up"
+                android:clickable="true"
                 android:onClick="phone"
                 android:text="Sign in"
-                android:clickable="true"
                 android:textColor="#086CFC" />
 
 

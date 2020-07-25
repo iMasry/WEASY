@@ -15,13 +15,13 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ControllingActivity" />
         <activity android:name=".BluetoothActivity" />
-        <activity android:name=".doctor_home" />
+        <activity android:name=".DoctorHomeActivity" />
         <activity android:name=".doctor_profile" />
-        <activity android:name=".setting" />
-        <activity android:name=".profile" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".ProfileActivity" />
         <activity android:name=".ReportActivity" />
-        <activity android:name=".homeactivity" />
-        <activity android:name=".sign_up" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
