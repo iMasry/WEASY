@@ -25,12 +25,12 @@
         android:layout_marginRight="25dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/corners"
-        android:paddingLeft="5dp"
-        android:paddingTop="5dp"
         android:hint="Name"
         android:inputType="textPersonName"
-        android:textColor="#bdc8d9"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
         android:paddingBottom="5dp"
+        android:textColor="#bdc8d9"
         android:textColorHint="#bdc8d9" />
 
     <EditText
@@ -41,12 +41,12 @@
         android:layout_marginRight="25dp"
         android:layout_marginBottom="5dp"
         android:background="@drawable/corners"
-        android:paddingLeft="5dp"
-        android:paddingTop="5dp"
         android:hint="Password"
         android:inputType="numberPassword"
-        android:textColor="#bdc8d9"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
         android:paddingBottom="5dp"
+        android:textColor="#bdc8d9"
         android:textColorHint="#bdc8d9" />
 
     <RelativeLayout
@@ -60,9 +60,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_marginRight="25dp"
-            android:text="Forget your password ?"
             android:clickable="true"
             android:linksClickable="true"
+            android:text="Forget your password ?"
             android:textColor="#FFFFFF" />
 
         <Button
@@ -74,10 +74,10 @@
             android:layout_marginTop="35dp"
             android:layout_marginRight="25dp"
             android:background="@drawable/custom_button"
-            android:text="Sign in"
             android:focusable="true"
             android:foreground="?android:attr/selectableItemBackground"
             android:onClick="Sign_in"
+            android:text="Sign in"
             android:textColor="#FFFFFF" />
 
         <LinearLayout
@@ -105,10 +105,10 @@
                 android:layout_marginTop="35dp"
                 android:layout_toRightOf="@id/sign_up"
                 android:autoLink="phone"
-                android:linksClickable="true"
-                android:text="Sign Up"
-                android:onClick="Sign_up"
                 android:clickable="true"
+                android:linksClickable="true"
+                android:onClick="Sign_up"
+                android:text="Sign Up"
                 android:textColor="#086CFC" />
 
 

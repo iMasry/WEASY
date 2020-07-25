@@ -1,10 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#07254e"
-
     tools:context=".profile">
 
     <RelativeLayout
@@ -38,9 +36,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/pic"
             android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
             android:paddingTop="15dp"
             android:paddingBottom="3dp"
-            android:fontFamily="sans-serif"
             android:text="Ayman Ehab"
             android:textColor="#bdc8d9"
             android:textSize="18sp"
@@ -62,7 +60,6 @@
             android:layout_height="50dp"
             android:layout_marginBottom="10dp"
             android:clickable="true"
-
             android:focusable="true"
             android:foreground="?android:attr/selectableItemBackground"
             android:onClick="call"
@@ -93,8 +90,8 @@
             android:clickable="true"
             android:focusable="true"
             android:foreground="?android:attr/selectableItemBackground"
-            android:orientation="horizontal"
             android:onClick="setting"
+            android:orientation="horizontal"
             android:paddingLeft="50dp"
             android:paddingRight="50dp">
 
@@ -120,9 +117,9 @@
             android:layout_height="50dp"
             android:layout_marginBottom="10dp"
             android:clickable="true"
-            android:orientation="horizontal"
             android:focusable="true"
             android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="horizontal"
             android:paddingLeft="50dp"
             android:paddingRight="50dp">
 
@@ -147,11 +144,10 @@
             android:layout_height="50dp"
             android:layout_marginBottom="10dp"
             android:clickable="true"
-            android:onClick="send"
-            android:orientation="horizontal"
             android:focusable="true"
             android:foreground="?android:attr/selectableItemBackground"
-
+            android:onClick="send"
+            android:orientation="horizontal"
             android:paddingLeft="50dp"
             android:paddingRight="50dp">
 
@@ -177,9 +173,9 @@
             android:layout_height="50dp"
             android:layout_marginBottom="10dp"
             android:clickable="true"
-            android:onClick="logout"
             android:focusable="true"
             android:foreground="?android:attr/selectableItemBackground"
+            android:onClick="logout"
             android:orientation="horizontal"
             android:paddingLeft="50dp"
             android:paddingRight="50dp">
@@ -201,7 +197,7 @@
         </LinearLayout>
 
 
-        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

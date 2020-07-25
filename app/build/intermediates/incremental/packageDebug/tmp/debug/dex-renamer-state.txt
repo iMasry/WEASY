@@ -1,4 +1,4 @@
-#Sat Jul 25 16:49:47 EET 2020
-base.0=C\:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Sat Jul 25 15:26:03 EET 2020
+base.0=E\:\\Cources & Projects\\Android Projects\\WEASY\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
