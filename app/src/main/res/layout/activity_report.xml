@@ -9,19 +9,19 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_height="160dp"
         android:layout_marginTop="20dp"
-        android:paddingLeft="40dp"
-        android:paddingRight="40dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
         android:src="@drawable/graph" />
 
     <LinearLayout
         android:id="@+id/svertical"
-        android:layout_width="wrap_content"
-        android:layout_height="120dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="40dp"
+        android:layout_width="310dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
         android:background="@drawable/corners"
         android:gravity="center"
         android:orientation="horizontal"
@@ -30,7 +30,7 @@
 
         <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="25dp"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
@@ -39,7 +39,7 @@
 
         <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="25dp"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_marginRight="15dp"
             android:progress="100"
@@ -47,7 +47,7 @@
 
         <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="25dp"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_marginRight="15dp"
             android:progress="50"
@@ -55,7 +55,7 @@
 
         <ProgressBar xmlns:tools="http://schemas.android.com/tools"
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="25dp"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_marginRight="15dp"
             android:progress="90"
@@ -63,7 +63,7 @@
 
         <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="25dp"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_marginRight="15dp"
             android:progress="80"
@@ -71,7 +71,7 @@
 
         <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="25dp"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_marginRight="15dp"
             android:progress="90"
@@ -79,7 +79,7 @@
 
         <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="25dp"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_marginRight="15dp"
             android:progress="80"
@@ -87,7 +87,7 @@
 
         <ProgressBar
             style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="25dp"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_marginRight="15dp"
             android:progress="50"
@@ -246,6 +246,7 @@
         android:layout_marginTop="10dp"
         android:orientation="horizontal"
         android:paddingLeft="40dp"
+        android:layout_marginBottom="5dp"
         android:paddingRight="40dp">
 
         <TextView
@@ -265,42 +266,49 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
         android:background="@drawable/corners"
         android:gravity="center"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/wp"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="70dp"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:onClick="profile"
-            android:padding="10dp"
             android:src="@drawable/wp" />
 
         <ImageView
-            android:id="@+id/wh"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginRight="70dp"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:onClick="home"
-            android:padding="10dp"
             android:src="@drawable/wh" />
 
         <ImageView
             android:id="@+id/bs"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginRight="20dp"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:onClick="chart"
-            android:padding="10dp"
             android:src="@drawable/bs" />
 
     </LinearLayout>

@@ -75,6 +75,8 @@
             android:layout_marginRight="25dp"
             android:background="@drawable/custom_button"
             android:text="Sign in"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
             android:onClick="Sign_in"
             android:textColor="#FFFFFF" />
 
