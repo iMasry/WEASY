@@ -34,7 +34,7 @@ public class doctor_home extends AppCompatActivity {
 
     public void control(View view) {
         Toast.makeText(getApplicationContext(), "control", Toast.LENGTH_SHORT).show();
-        Intent chartIntent = new Intent(this, control.class);
+        Intent chartIntent = new Intent(this, BluetoothActivity.class);
         startActivity(chartIntent);
     }
 
