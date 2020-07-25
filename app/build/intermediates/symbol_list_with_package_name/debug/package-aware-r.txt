@@ -779,6 +779,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -800,6 +801,7 @@ id checked
 id chronometer
 id collapseActionView
 id con_Pass_word
+id connect
 id content
 id contentPanel
 id custom
@@ -836,7 +838,9 @@ id line1
 id line3
 id listMode
 id list_item
+id listview
 id logo
+id lstContent
 id message
 id middle
 id month1circle
@@ -877,6 +881,7 @@ id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id search
 id search_badge
 id search_bar
 id search_button
@@ -915,6 +920,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id test
 id text
 id text2
 id textSpacerNoButtons
@@ -976,8 +982,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_control
+layout activity_bluetooth
+layout activity_controlling
 layout activity_doctor_home
+layout activity_doctor_profile
 layout activity_homeactivity
 layout activity_main
 layout activity_profile
@@ -985,6 +993,7 @@ layout activity_report
 layout activity_setting
 layout activity_sign_up
 layout custom_dialog
+layout list_item
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

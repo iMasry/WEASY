@@ -8,6 +8,9 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="29" />
 
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -18,7 +21,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.weasy.control" />
+        <activity android:name="com.example.weasy.ControllingActivity" />
+        <activity android:name="com.example.weasy.BluetoothActivity" />
         <activity android:name="com.example.weasy.doctor_home" />
         <activity android:name="com.example.weasy.setting" />
         <activity android:name="com.example.weasy.profile" />
