@@ -103,7 +103,7 @@ public class doctor_profile extends AppCompatActivity {
 
     public void hoome(View view) {
         Toast.makeText(getApplicationContext(), "Progress", Toast.LENGTH_SHORT).show();
-        Intent homeEIntent = new Intent(doctor_profile.this, doctor_home.class);
+        Intent homeEIntent = new Intent(doctor_profile.this, DoctorHomeActivity.class);
         startActivity(homeEIntent);
     }
 

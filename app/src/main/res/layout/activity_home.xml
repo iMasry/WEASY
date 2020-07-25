@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#07254e"
     android:orientation="vertical"
-    tools:context=".homeactivity">
+    tools:context=".HomeActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

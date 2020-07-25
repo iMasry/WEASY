@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class setting extends AppCompatActivity {
+public class SettingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,20 +16,20 @@ public class setting extends AppCompatActivity {
     }
 
     public void back(View view) {
-        Intent backEIntent = new Intent(setting.this, profile.class);
+        Intent backEIntent = new Intent(SettingActivity.this, ProfileActivity.class);
         startActivity(backEIntent);
     }
 
     public void hoome(View view) {
         Toast.makeText(getApplicationContext(), "Home", Toast.LENGTH_SHORT).show();
-        Intent homeEIntent = new Intent(setting.this, homeactivity.class);
+        Intent homeEIntent = new Intent(SettingActivity.this, HomeActivity.class);
         startActivity(homeEIntent);
     }
 
     public void chartt(View view) {
 
         Toast.makeText(getApplicationContext(), "chart", Toast.LENGTH_SHORT).show();
-        Intent chartEIntent = new Intent(setting.this, ReportActivity.class);
+        Intent chartEIntent = new Intent(SettingActivity.this, ReportActivity.class);
         startActivity(chartEIntent);
     }
 

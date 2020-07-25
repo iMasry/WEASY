@@ -7,17 +7,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class homeactivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_homeactivity);
+        setContentView(R.layout.activity_home);
     }
 
     public void profile(View view) {
         Toast.makeText(getApplicationContext(), "Profile", Toast.LENGTH_SHORT).show();
-        Intent profileIntent = new Intent(this, profile.class);
+        Intent profileIntent = new Intent(this, ProfileActivity.class);
         startActivity(profileIntent);
     }
 

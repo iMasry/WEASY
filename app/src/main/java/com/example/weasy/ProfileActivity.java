@@ -1,20 +1,18 @@
 package com.example.weasy;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
 
-import android.Manifest;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-public class profile extends AppCompatActivity {
+public class ProfileActivity extends AppCompatActivity {
 
     private LinearLayout linear;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,25 +43,25 @@ public class profile extends AppCompatActivity {
     }
 
     public void logout(View view) {
-        Intent logoutEIntent = new Intent(profile.this, MainActivity.class);
+        Intent logoutEIntent = new Intent(ProfileActivity.this, MainActivity.class);
         startActivity(logoutEIntent);
     }
 
     public void setting(View view) {
-        Intent settingEIntent = new Intent(profile.this, setting.class);
+        Intent settingEIntent = new Intent(ProfileActivity.this, SettingActivity.class);
         startActivity(settingEIntent);
     }
 
     public void hoome(View view) {
         Toast.makeText(getApplicationContext(), "Progress", Toast.LENGTH_SHORT).show();
-        Intent homeEIntent = new Intent(profile.this, homeactivity.class);
+        Intent homeEIntent = new Intent(ProfileActivity.this, HomeActivity.class);
         startActivity(homeEIntent);
     }
 
     public void chartt(View view) {
 
         Toast.makeText(getApplicationContext(), "Statics", Toast.LENGTH_SHORT).show();
-        Intent chartEIntent = new Intent(profile.this, ReportActivity.class);
+        Intent chartEIntent = new Intent(ProfileActivity.this, ReportActivity.class);
         startActivity(chartEIntent);
     }
 }

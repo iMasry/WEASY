@@ -17,13 +17,13 @@ public class ReportActivity extends AppCompatActivity {
 
     public void profile(View view) {
         Toast.makeText(getApplicationContext(), "Profile", Toast.LENGTH_SHORT).show();
-        Intent profileIntent = new Intent(this, profile.class);
+        Intent profileIntent = new Intent(this, ProfileActivity.class);
         startActivity(profileIntent);
     }
 
     public void home(View view) {
         Toast.makeText(getApplicationContext(), "Progress", Toast.LENGTH_SHORT).show();
-        Intent homeIntent = new Intent(this, homeactivity.class);
+        Intent homeIntent = new Intent(this, HomeActivity.class);
         startActivity(homeIntent);
     }
 

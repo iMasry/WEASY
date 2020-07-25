@@ -8,9 +8,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import javax.crypto.NullCipher;
-
-public class sign_up extends AppCompatActivity {
+public class SignUpActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +26,7 @@ public class sign_up extends AppCompatActivity {
         String con_password = con_pass_word.getText().toString();
         if (password.equals(con_password) && password != null) {
             Toast.makeText(getApplicationContext(), "Welcome " + username, Toast.LENGTH_SHORT).show();
-            Intent numbersIntent = new Intent(this, homeactivity.class);
+            Intent numbersIntent = new Intent(this, HomeActivity.class);
             startActivity(numbersIntent);
         } else {
             Toast.makeText(getApplicationContext(), "please rewrite password ", Toast.LENGTH_SHORT).show();
