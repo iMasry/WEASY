@@ -71,12 +71,14 @@
             android:paddingRight="50dp">
 
             <ImageView
+                android:id="@+id/ic_call"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:layout_gravity="center_vertical"
                 android:src="@drawable/ic_phone" />
 
             <TextView
+                android:id="@+id/text_call"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -99,12 +101,14 @@
             android:paddingRight="50dp">
 
             <ImageView
+                android:id="@+id/ic_setting"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:layout_gravity="center_vertical"
                 android:src="@drawable/ic_gear" />
 
             <TextView
+                android:id="@+id/text_setting"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -127,12 +131,14 @@
             android:paddingRight="50dp">
 
             <ImageView
+                android:id="@+id/ic_physical"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:layout_gravity="center_vertical"
                 android:src="@drawable/ic_physiotherapy" />
 
             <TextView
+                android:id="@+id/text_physical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -156,12 +162,14 @@
             android:paddingRight="50dp">
 
             <ImageView
+                android:id="@+id/ic_email"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:layout_gravity="center_vertical"
                 android:src="@drawable/ic_email" />
 
             <TextView
+                android:id="@+id/text_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -172,6 +180,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/linear_logout"
 
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -185,12 +194,14 @@
             android:paddingRight="50dp">
 
             <ImageView
+                android:id="@+id/ic_logout"
                 android:layout_width="16dp"
                 android:layout_height="16dp"
                 android:layout_gravity="center_vertical"
                 android:src="@drawable/ic_logout" />
 
             <TextView
+                android:id="@+id/text_logout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"

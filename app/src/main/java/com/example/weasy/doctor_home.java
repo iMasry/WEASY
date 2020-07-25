@@ -18,7 +18,7 @@ public class doctor_home extends AppCompatActivity {
 
     public void profile(View view) {
         Toast.makeText(getApplicationContext(), "Profile", Toast.LENGTH_SHORT).show();
-        Intent profileIntent = new Intent(this, profile.class);
+        Intent profileIntent = new Intent(this, doctor_profile.class);
         startActivity(profileIntent);
     }
 

@@ -11,6 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".control"></activity>
         <activity android:name=".doctor_home" />
+        <activity android:name=".doctor_profile" />
         <activity android:name=".setting" />
         <activity android:name=".profile" />
         <activity android:name=".ReportActivity" />
