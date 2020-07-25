@@ -48,12 +48,12 @@
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable\\corners.xml"
     },
     {
-        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vertical.xml.flat",
-        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable\\vertical.xml"
-    },
-    {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_wc.png.flat",
         "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable-mdpi\\wc.png"
+    },
+    {
+        "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vertical.xml.flat",
+        "source": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\src\\main\\res\\drawable\\vertical.xml"
     },
     {
         "merged": "C:\\Users\\laila\\AndroidStudioProjects\\weasy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_solid_vertical.xml.flat",

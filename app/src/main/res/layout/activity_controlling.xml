@@ -16,7 +16,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="16dp"
             android:paddingBottom="5dp"
             android:layout_weight="1"
             android:background="@drawable/corners"
@@ -45,6 +45,7 @@
                     android:buttonTint="#00B5FC"
                     android:textSize="15sp"
                     android:layout_marginTop="16dp"
+                    android:layout_marginRight="10dp"
                     android:text="30 Minutes"
                     android:textAppearance="?android:textAppearanceMedium"
                     android:textColor="#ffffff" />
@@ -54,7 +55,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:buttonTint="#00B5FC"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:textSize="15sp"
                     android:checked="true"
                     android:text="One Hour"
@@ -66,7 +69,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="16dp"
             android:paddingBottom="5dp"
             android:layout_weight="1"
             android:background="@drawable/corners"
@@ -94,6 +97,8 @@
                     android:layout_height="wrap_content"
                     android:buttonTint="#00B5FC"
                     android:layout_marginTop="16dp"
+                    android:layout_marginRight="10dp"
+
                     android:text="100 m"
                     android:checked="true"
                     android:textSize="15sp"
@@ -105,9 +110,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:buttonTint="#00B5FC"
-                    android:layout_marginTop="16dp"
+                    android:layout_marginTop="12dp"
                     android:textSize="15sp"
-
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:text="50 m"
                     android:textAppearance="?android:textAppearanceMedium"
                     android:textColor="#ffffff" />
@@ -212,8 +218,8 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@+id/mother"
-        android:layout_margin="10dp"
 
+        android:layout_marginTop="20dp"
         android:background="@drawable/corners"
         android:orientation="horizontal">
 
