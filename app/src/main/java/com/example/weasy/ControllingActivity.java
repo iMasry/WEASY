@@ -12,17 +12,17 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.UUID;
 
 public class ControllingActivity extends Activity {
-    final static String on = "92";//on
-    final static String off = "79";//off
-    final static String test = "66";//off
+    final static String init = "1";//Initialize
+    final static String pause = "2";//Pause
+    final static String on = "3";//on
+    final static String off = "4";//off
     private static final String TAG = "BlueTest5-Controlling";
-    Button btnOn, btnOff, btnTest;
+    Button btnOn, btnOff, btnInit, btnPause;
     private int mMaxChars = 50000;//Default//change this to string..........
     private UUID mDeviceUUID;
     private BluetoothSocket mBTSocket;
@@ -40,9 +40,10 @@ public class ControllingActivity extends Activity {
 
         ActivityHelper.initialize(this);
         // mBtnDisconnect = (Button) findViewById(R.id.btnDisconnect);
+        btnInit = (Button) findViewById(R.id.init);
+        btnPause = (Button) findViewById(R.id.pause);
         btnOn = (Button) findViewById(R.id.on);
         btnOff = (Button) findViewById(R.id.off);
-        btnTest = (Button) findViewById(R.id.test);
 
 
         Intent intent = getIntent();
@@ -53,6 +54,39 @@ public class ControllingActivity extends Activity {
 
         Log.d(TAG, "Ready");
 
+        btnInit.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+// TODO Auto-generated method stub
+
+
+                try {
+                    mBTSocket.getOutputStream().write(init.getBytes());
+
+                } catch (IOException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        btnPause.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+// TODO Auto-generated method stub
+
+
+                try {
+                    mBTSocket.getOutputStream().write(pause.getBytes());
+
+                } catch (IOException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+        });
 
         btnOn.setOnClickListener(new View.OnClickListener() {
 
@@ -86,24 +120,6 @@ public class ControllingActivity extends Activity {
                 }
             }
         });
-
-        btnTest.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-// TODO Auto-generated method stub
-
-
-                try {
-                    mBTSocket.getOutputStream().write(test.getBytes());
-
-                } catch (IOException e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
-                }
-            }
-        });
-
 
     }
 
